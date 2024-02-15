@@ -37,8 +37,8 @@ body {
 }
 
 .wrapper {
-  margin: 100px auto 150px auto;
-  max-width: 550px;
+  margin: 100px auto 350px auto;
+  max-width: 525px;
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
 }
@@ -77,10 +77,12 @@ body {
 
 .question-wrapper:hover {
   cursor: pointer;
+  color: hsl(296, 96%, 40%);
 }
 
 .question {
   font-weight: 800;
+  transition: color 0.4s ease;
 }
 
 .answer {
@@ -92,4 +94,14 @@ body {
 hr {
   border-style: solid;
   color: hsl(275, 100%, 97%);
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  font-family: WorkSans;
+  font-size: 16px;
+  padding: 10px 0;
+  background-color: rgb(151, 113, 187);
 }
